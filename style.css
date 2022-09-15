@@ -1,0 +1,190 @@
+
+body{
+    min-height: 50vh;
+    background-color: hsl(233, 47%, 7%);}
+.mainBody{
+    background-color:hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    margin: 5% 15%;
+    border: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+.backgroundImg{
+    border: 10px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    border-style: none;
+    background-color:hsl(277, 64%, 61%);}
+.officeImg{
+    border: 10px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    border-style: none;
+    content: url("./images/image-header-desktop.jpg");
+    opacity: 0.7;
+
+    }
+.mainText{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.938rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}    
+.headerText{ 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-bottom: 5%;
+    color:hsl(0, 0%, 100%);
+    
+}
+.insightsText{color:hsl(277, 64%, 61%);}
+.subText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.838rem;
+    line-height: 1.5rem;
+    margin-bottom: 25%;
+    color:hsla(0, 0%, 100%, 0.75);}
+.groupText{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.938rem;
+    flex-wrap: nowrap;
+   
+    color:hsl(0, 0%, 100%);}
+.num{
+    display: flex;
+    flex-direction:row;
+    font-size:  0.938rem;
+    color:hsl(0, 0%, 100%);
+}
+.companiesText{
+   
+    color:hsla(0, 0%, 100%, 0.75); 
+    margin-right: 5%;}
+.templatesText{
+    text-transform: uppercase;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-right: 5%;}
+.queriesText{
+    text-transform: uppercase;
+    color:hsla(0, 0%, 100%, 0.75);}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    @media screen and (max-width: 600px) {
+        
+body{
+    
+    background-color: hsl(233, 47%, 7%);}
+    .backgroundImg{
+        position: absolute;
+        width: 49%;
+        border: 10px;
+        border-start-start-radius: 10px;
+        border-end-end-radius: 0px;
+
+        border-start-end-radius: 10px;
+        border-style: none;
+        background-color:hsl(277, 64%, 61%);
+     margin-bottom: 25%;}
+        .officeImg{
+            border-end-end-radius: 0px;
+        width: 100%;
+        height: 100%;
+        border: 10px;
+        border-start-start-radius: 10px;
+        border-start-end-radius: 10px;
+        border-style: none;
+        content: url("./images/image-header-mobile.jpg");
+        opacity: 0.7;
+    
+        }
+    .mainBody{
+    
+    background-color:hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: column;
+    
+    margin: 5% 15%;
+
+    border: 10px;
+    border-radius: 10px;
+    border-style: none;
+    height: 100vh;
+    width:50%;
+}
+
+.mainText{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+    margin-top: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}    
+.headerText{ 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 5%;
+    color:hsl(0, 0%, 100%);
+    
+}
+.insightsText{color:hsl(277, 64%, 61%);}
+.subText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: .6rem;
+    line-height: 1.0rem;
+    margin-bottom: 25%;
+    color:hsla(0, 0%, 100%, 0.75);}
+.groupText{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.5rem;
+    flex-wrap: nowrap;
+    margin-right: 76%;
+    margin-left: 25%;
+    color:hsl(0, 0%, 100%);}
+.num{
+    display: flex;
+    flex-direction:row;
+    font-size:  1rem;
+    color:hsl(0, 0%, 100%);
+}
+.companiesText{
+   
+    color:hsla(0, 0%, 100%, 0.75); 
+    margin-right: 5%;}
+.templatesText{
+    text-transform: uppercase;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-right: 5%;}
+.queriesText{
+    text-transform: uppercase;
+    color:hsla(0, 0%, 100%, 0.75);}
+      }
+    
